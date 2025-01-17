@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.0.10/20025
 // Filename: ??? ???? VIORR 59A - ??.ggsk
-// Generated 2025-01-17T13:33:45
+// Generated 2025-01-17T13:36:21
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_minimap_button', 2, false, { ignoreInState: 0  });
@@ -20014,7 +20014,7 @@ function pano2vrSkin(player,base) {
 		}
 		me._display6.logicBlock_visible();
 		me._display6.onclick=function (e) {
-			player.setVariableValue('vis_displaymirror', true);
+			player.setVariableValue('vis_displaymirror', false);
 		}
 		me._display6.ggUpdatePosition=function (useTransition) {
 		}
